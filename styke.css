@@ -1,0 +1,91 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://cdn.pixabay.com/photo/2023/03/11/10/50/sumatran-tiger-7844188_640.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#form{
+  padding: 25px;
+  border-radius: 15px;
+  background-color: lightgrey;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 300px;
+  font-weight: bold;
+  box-shadow: 8px 12px 10px 2px black;
+}
+h1{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+input{
+  padding: 8px;
+  
+}
+
+.result{
+  width: 70%;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.8);
+}
+.anda{
+  font-size: 2.3rem;
+}
+.title{
+  text-align: center;
+}
+
+.name-place{
+  color: rgb(0, 191, 255);
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+}
+
+.kembali{
+  color: blue;
+  text-decoration: underline;
+}
+
+.kembali:hover{
+  cursor: pointer;
+}
+
+.kodam-name{
+  padding: 12px;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+
+.show{
+  display: block;
+}
+
+.hidden{
+  display: none;
+}
+
+#submit-btn{
+  width: 100%;
+}
+#name{
+  width: 93.5%;
+  margin-bottom: 10px;
+}
+
